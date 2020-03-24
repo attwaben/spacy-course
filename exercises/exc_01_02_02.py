@@ -1,11 +1,10 @@
 # Import the German language class
-from spacy.lang.____ import ____
-
+from spacy.lang.de import German
 # Create the nlp object
-nlp = ____
+nlp = German()
 
 # Process a text (this is German for: "Kind regards!")
 doc = nlp("Liebe Grüße!")
 
 # Print the document text
-print(____.text)
+print(doc.text)
