@@ -1,13 +1,13 @@
 # Import the English language class and create the nlp object
-from ____ import ____
+from spacy.lang.en import English
 
-nlp = ____
+nlp = English
 
 # Process the text
-doc = ____("I like tree kangaroos and narwhals.")
+doc = nlp("I like tree kangaroos and narwhals.")
 
 # Select the first token
-first_token = doc[____]
+first_token = doc[0]
 
 # Print the first token's text
-print(first_token.____)
+print(first_token.text)
