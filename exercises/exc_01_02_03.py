@@ -1,11 +1,11 @@
 # Import the Spanish language class
-from spacy.lang.____ import ____
+from spacy.lang.es import Spanish
 
 # Create the nlp object
-nlp = ____
+nlp = Spanish()
 
 # Process a text (this is Spanish for: "How are you?")
 doc = nlp("¿Cómo estás?")
 
 # Print the document text
-print(____.text)
+print(doc.text)
