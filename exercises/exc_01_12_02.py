@@ -12,7 +12,7 @@ doc = nlp(
 )
 
 # Write a pattern that matches a form of "download" plus proper noun
-pattern = [{"LEMMA": ____}, {"POS": ____}]
+pattern = [{"LEMMA": "download"}, {"POS": "PROPN"}]
 
 # Add the pattern to the matcher and apply the matcher to the doc
 matcher.add("DOWNLOAD_THINGS_PATTERN", None, pattern)
