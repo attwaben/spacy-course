@@ -12,7 +12,7 @@ doc = nlp(
 )
 
 # Write a pattern for full iOS versions ("iOS 7", "iOS 11", "iOS 10")
-pattern = [{"TEXT": ____}, {"IS_DIGIT": ____}]
+pattern = [{"TEXT": "iOS"}, {"IS_DIGIT": True}]
 
 # Add the pattern to the matcher and apply the matcher to the doc
 matcher.add("IOS_VERSION_PATTERN", None, pattern)
